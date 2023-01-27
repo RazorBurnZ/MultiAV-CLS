@@ -1,4 +1,4 @@
-# MultiAV-CLS: Multiple AntiVirus - Command Line Scanner
+#MultiAV-CLS: Multiple AntiVirus - Command Line Scanner
 
 MultiAV-CLS is an open-source command line scanner written in python that allows users to scan files and detect malware using multiple antivirus engines. It is designed to be lightweight, fast, portable, and easy to use.
 
