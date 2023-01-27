@@ -22,5 +22,9 @@ import requests
 import re
 import hashlib
 
+Must be running on Windows
+
 Follow the directory structure in this sample, or you can modify the script to use your own directory structure
 ![Image](DirTree.png)
+
+Just run the MultiAV-CLS.py
