@@ -15,4 +15,4 @@ Echo Updating McAfee DAT files
     cURL.exe -C - http://update.nai.com/products/commonupdater/avvdat-%Curr%.zip -o McAfee\DATS\avvdat-%Curr%.zip
 
 :4 Extract to McAfee dir
-sfk.exe unzip McAfee\DATS\avvdat-%Curr%.zip -yes -todir AV\McAfee\
+sfk.exe unzip McAfee\DATS\avvdat-%Curr%.zip -yes -todir McAfee\
