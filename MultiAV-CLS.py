@@ -104,7 +104,7 @@ while True:
         subprocess.run("EEK/bin64/a2cmd.exe /u")
         print("Emsisoft virus definitions have been updated.")             
         # Updating Ikarus Virus definitions
-        subprocess.run(["update-ikarus.bat"])
+        subprocess.run(["update-ikarus.py"])
         print("Ikarus virus definitions have been updated.")         
         # Updating McAfee Virus definitions
         subprocess.run(["update-mcafee.bat"])
@@ -129,7 +129,7 @@ while True:
             print("5. Back to main menu")
             sub_choice = input("Enter your choice: ")
             if sub_choice == "1":
-                subprocess.run("Tools/KVRT.exe")
+                subprocess.run(["Tools/KVRT.exe", "-dontencrypt", "-accepteula", "-details", "-noads", "-fixednames"])
             elif sub_choice == "2":
                 subprocess.run("Tools/drwebci.exe")
             elif sub_choice == "3":
