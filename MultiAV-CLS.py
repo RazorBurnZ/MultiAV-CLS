@@ -107,7 +107,7 @@ while True:
         subprocess.run(["update-ikarus.py"])
         print("Ikarus virus definitions have been updated.")         
         # Updating McAfee Virus definitions
-        subprocess.run(["update-mcafee.bat"])
+        subprocess.run(["update-mcafee.py"])
         print("McAfee DAT files have been updated.")        
         display_menu()
         
