@@ -56,3 +56,11 @@ Already included with Windows 10/11, executable located at "c:\Program Files\Win
 
 Download at http://rose.rult.at/, extract to RMS folder at {root}\RMS\
 
+### External GUI AV Scanner Supported 
+
+- KVRT = Kaspersky Virus Removal Tool (https://www.kaspersky.com/downloads/free-virus-removal-tool)
+- DrWeb CureIt = DrWeb CureIt (https://free.drweb.com/download+cureit+free/)
+- CCE = Comodo Cleaning Essentials (https://www.comodo.com/business-security/network-protection/cleaning_essentials.php)
+- EEK = Emsisoft Emergency Kit = (https://www.emsisoft.com/en/home/emergency-kit/)
+
+Will be adding more AV scanners and External GUI scanners in the future
